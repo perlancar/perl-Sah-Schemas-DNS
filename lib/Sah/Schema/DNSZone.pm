@@ -1,4 +1,4 @@
-package Data::Schema::Schema::DNSZone;
+package Sah::Schema::DNSZone;
 # ABSTRACT: Schema for DNS zone
 
 =head1 SYNOPSIS

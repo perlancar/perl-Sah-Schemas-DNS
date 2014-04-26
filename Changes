@@ -1,32 +1,5 @@
-Revision history for Data-Sah-Schema-CPANMeta
+Revision history for Sah-Schema-DNSZone
 
-0.06    2009-11-26 (SHARYANTO)
+0.01    2014-04-26 (SHARYANTO) (not yet released)
 
-        - Be compatible with import syntax in Data::Schema 0.13+
-
-        - Some small changes
-
-
-0.05    2009-11-18 (SHARYANTO)
-
-        - Allow access to raw YAML schema via $yaml_schema_14
-
-
-0.04    2009-11-18 (SHARYANTO)
-
-        - Add left-out test files
-
-
-0.03    2009-11-18 (SHARYANTO)
-
-        - Fix typo in documentation
-
-
-0.02    2009-11-18 (SHARYANTO)
-
-        - Add meta_yaml_ok() and meta_spec_ok(), a la Test::CPAN::Meta
-
-
-0.01    2009-11-18 (SHARYANTO)
-
-        - First release
+        - First release.
