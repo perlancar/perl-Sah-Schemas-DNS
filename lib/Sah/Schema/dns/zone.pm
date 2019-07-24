@@ -6,7 +6,7 @@ package Sah::Schema::dns::zone;
 our $schema = [hash => {
     summary => 'DNS zone structure',
     keys => {
-        records => ["dns::records", {req=>1}, {}],
+        records => ["dns::records_of_known_types", {req=>1}, {}],
     },
     req_keys => [qw/records/],
 }, {}];
