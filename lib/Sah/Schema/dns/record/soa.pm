@@ -9,6 +9,13 @@ our $schema = ['dns::record' => {
         name => ["str", {req=>1, is=>""}, {}],
         type => ["str", {req=>1, is=>"SOA"}, {}],
 
+        host => ["any", {
+            req=>1,
+            of=>[
+                ["str", {req=>1, is=>""}, {}],
+                ["net::hostname", {req=>1}, {}],
+            ],
+        }, {}],
         serial => ["uint", {req=>1}, {}],
         refresh => ["uint", {req=>1}, {}],
         retry => ["uint", {req=>1}, {}],
