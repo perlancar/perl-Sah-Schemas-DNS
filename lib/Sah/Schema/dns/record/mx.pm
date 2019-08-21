@@ -6,6 +6,8 @@ package Sah::Schema::dns::record::mx;
 our $schema = ['dns::record' => {
     summary => 'DNS MX record',
     "merge.normal.keys" => {
+        name => ["dns::record_field::name::disallow_underscore"],
+
         type => ["str", {req=>1, is=>"MX"}, {}],
 
         host => ["net::hostname", {req=>1}, {}],

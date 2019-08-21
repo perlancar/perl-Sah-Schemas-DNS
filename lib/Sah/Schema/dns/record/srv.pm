@@ -6,7 +6,7 @@ package Sah::Schema::dns::record::txt;
 our $schema = ['dns::record' => {
     summary => 'DNS TXT record',
     "merge.normal.keys" => {
-        name => ["dns::record_field::name::disallow_underscore"],
+        name => ["dns::record_field::name::allow_underscore"],
 
         type => ["str", {req=>1, is=>"TXT"}, {}],
 

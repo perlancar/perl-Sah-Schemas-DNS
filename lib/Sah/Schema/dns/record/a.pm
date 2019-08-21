@@ -6,6 +6,8 @@ package Sah::Schema::dns::record::a;
 our $schema = ['dns::record' => {
     summary => 'DNS A record',
     'merge.normal.keys' => {
+        name => ["dns::record_field::name::disallow_underscore"],
+
         type => ["str", {req=>1, is=>"A"}, {}],
 
         address => ["net::ipv4", {req=>1}, {}],
