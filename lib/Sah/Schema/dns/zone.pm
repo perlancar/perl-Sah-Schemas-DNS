@@ -8,6 +8,7 @@ our $schema = [hash => {
     keys => {
         records => ["dns::records_of_known_types", {req=>1}, {}],
     },
+    "keys.restrict" => 0,
     req_keys => [qw/records/],
 }, {}];
 
