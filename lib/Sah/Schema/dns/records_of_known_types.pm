@@ -9,6 +9,9 @@ our $schema = [array => {
 }, {}];
 
 # TODO add constraint: there can only be at most 1 SOA record
+# TODO add constraint: CNAME record cannot be mixed with other records for the same name
+# TODO q: can there be multiple CNAME records for a name?
+# TODO add constraint: ordering?
 
 1;
 # ABSTRACT:
